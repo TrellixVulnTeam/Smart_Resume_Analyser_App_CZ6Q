@@ -70,7 +70,8 @@ def course_recommender(course_list):
             break
     return rec_course
 
-connection = pymysql.connect(host='localhost',user='root',password='Manukayadav.15022',db='resumeanalyzer')
+connection = pymysql.connect(host='	sql101.epizy.com',user='epiz_31992575',password='
+wuKeSF1zqiVgbr',db='epiz_31992575_resumeanalyzer')
 cursor = connection.cursor()
 
 def insert_data(name,email,res_score,timestamp,no_of_pages,reco_field,cand_level,skills,recommended_skills,courses):
